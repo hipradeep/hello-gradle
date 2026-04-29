@@ -16,6 +16,7 @@ A project with the wrapper includes:
 
 ## Common Commands
 -   **Build the project**: `./gradlew build`
+-   **Build without tests**: `./gradlew build -x test`
 -   **Build Spring Boot JAR**: `./gradlew bootJar`
 -   **Run the app**: `./gradlew bootRun`
 -   **Clean build**: `./gradlew clean build`
