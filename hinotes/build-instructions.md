@@ -33,5 +33,12 @@ If you want to delete previous build outputs and start fresh:
 ./gradlew clean
 ```
 
+## 5. Skipping Tests
+If you want to build the project quickly without running tests (similar to Maven's `-DskipTests`), use the `-x` flag:
+```powershell
+./gradlew build -x test
+```
+This excludes the `test` task from the build process.
+
 ---
-*Created during discussion on build commands and JAR generation.*
+*Created during discussion on build commands, JAR generation, and skipping tests.*
