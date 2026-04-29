@@ -19,6 +19,7 @@ A project with the wrapper includes:
 -   **Build without tests**: `./gradlew build -x test`
 -   **Build Spring Boot JAR**: `./gradlew bootJar`
 -   **Run the app**: `./gradlew bootRun`
+-   **Debug startup**: `./gradlew bootRun --info`
 -   **Clean build**: `./gradlew clean build`
 
 ## Troubleshooting "Gradle not recognized"

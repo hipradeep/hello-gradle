@@ -27,6 +27,16 @@ You can run the generated JAR using the standard Java command:
 java -jar build/libs/hello-gradle-0.0.1-SNAPSHOT.jar
 ```
 
+### 3.1 Debugging Startup Issues
+If the application fails to start, run it with the `--info` flag to see detailed logs:
+-   **Run the app**: `./gradlew bootRun`
+-   **Debug the app**: `./gradlew bootRun --info`
+-   **Clean build**: `./gradlew clean build`
+If you want to delete previous build outputs and start fresh:
+```powershell
+./gradlew clean
+```
+
 ## 4. Cleaning the Build
 If you want to delete previous build outputs and start fresh:
 ```powershell
