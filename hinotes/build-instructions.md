@@ -45,5 +45,17 @@ If you want to build the project quickly without running tests (similar to Maven
 ```
 This excludes the `test` task from the build process.
 
+## 6. Troubleshooting: Port already in use
+If you get an error saying port 8080 is already in use:
+
+1.  **Find the Process ID (PID)**:
+    ```powershell
+    netstat -ano | findstr :8080
+    ```
+2.  **Kill the process**:
+    ```powershell
+    taskkill /F /PID <PID_NUMBER>
+    ```
+
 ---
-*Created during discussion on build commands, JAR generation, and skipping tests.*
+*Created during discussion on build commands, JAR generation, skipping tests, and port management.*
