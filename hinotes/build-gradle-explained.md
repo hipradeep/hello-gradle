@@ -55,5 +55,13 @@ tasks.named('test') {
 ```
 -   Configures specific tasks. Here, it tells Gradle to use the JUnit 5 platform for testing.
 
+## 7. Disabling Tests
+If you want to permanently disable the test task within the configuration file:
+```gradle
+test {
+    enabled = false
+}
+```
+
 ---
-*Created during discussion on build.gradle configuration.*
+*Created during discussion on build.gradle configuration and skipping tests.*
