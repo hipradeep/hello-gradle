@@ -30,5 +30,4 @@ While both use Maven Central and handle transitive dependencies:
 -   **Use Maven** if your project is standard, you want something predictable, and you don't want to learn a new scripting language.
 -   **Use Gradle** for large, complex projects, Android development, or if you need the highest build performance.
 
----
-*Created during discussion on build tool selection.*
+ 
